@@ -9,7 +9,7 @@ head	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^ 
 meta	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <meta charset="utf-8">$/;"	function	line:4
 script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script src="..\/build\/react.js"><\/script>$/;"	function	line:5
 script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script src="..\/build\/JSXTransformer.js"><\/script>$/;"	function	line:6
-title	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <title>facebook Graph Avatar <\/title>$/;"	function	line:7
+title	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <title>新浪微博 <\/title>$/;"	function	line:7
 body	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^  <body>$/;"	function	line:9
 div	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <div id="content"><\/div>$/;"	function	line:10
 script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script type="text\/jsx">$/;"	function	line:11
