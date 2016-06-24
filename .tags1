@@ -4,11 +4,18 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-html	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^<html>$/;"	function	line:2
-head	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^  <head>$/;"	function	line:3
-meta	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^    <meta charset="utf-8">$/;"	function	line:4
-script	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^    <script src="build\/react.js"><\/script>$/;"	function	line:5
-script	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^    <script src="build\/jquery.min.js"><\/script>$/;"	function	line:6
-title	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^    <title>React学习demo，商品查询列表 <\/title>$/;"	function	line:7
-body	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^  <body>$/;"	function	line:9
-div	/Users/tanchao/Desktop/ReactProductSearchDemo/index.html	/^    <div id="content"><\/div>$/;"	function	line:10
+html	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^<html>$/;"	function	line:2
+head	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^  <head>$/;"	function	line:3
+meta	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <meta charset="utf-8">$/;"	function	line:4
+script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script src="..\/build\/react.js"><\/script>$/;"	function	line:5
+script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script src="..\/build\/JSXTransformer.js"><\/script>$/;"	function	line:6
+title	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <title>facebook Graph Avatar <\/title>$/;"	function	line:7
+body	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^  <body>$/;"	function	line:9
+div	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <div id="content"><\/div>$/;"	function	line:10
+script	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^    <script type="text\/jsx">$/;"	function	line:11
+img	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^          <img src = {'http:\/\/www.weibo.com\/'+this.props.userName+'\/picture'}\/>$/;"	function	line:15
+a	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^          <a href = {'http:\/\/www.weibo.com\/'+this.props.userName}>$/;"	function	line:22
+div	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^          <div>$/;"	function	line:31
+ProfilePic	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^          <ProfilePic userName = {this.props.userName}\/>$/;"	function	line:32
+ProfileLink	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^          <ProfileLink userName = {this.props.userName}\/>$/;"	function	line:33
+Avatar	/Users/tanchao/Desktop/ReactProductSearchDemo/public/composability.html	/^      <Avatar userName = "iamboring00" \/>,$/;"	function	line:39

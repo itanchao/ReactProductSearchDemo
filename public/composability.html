@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../build/react.js"></script>
+    <script src="../build/JSXTransformer.js"></script>
+    <title>facebook Graph Avatar </title>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script type="text/jsx">
+    var ProfilePic = React.createClass({
+      render: function() {
+        return (
+          <img src = {'http://www.weibo.com/'+this.props.userName+'/picture'}/>
+        );
+      }
+    });
+    var ProfileLink = React.createClass({
+      render: function() {
+        return (
+          <a href = {'http://www.weibo.com/'+this.props.userName}>
+          {this.props.userName}
+          </a>
+        );
+      }
+    });
+    var Avatar = React.createClass({
+      render: function() {
+        return (
+          <div>
+          <ProfilePic userName = {this.props.userName}/>
+          <ProfileLink userName = {this.props.userName}/>
+          </div>
+        );
+      }
+    });
+    React.render(
+      <Avatar userName = "iamboring00" />,
+      document.getElementById('content')
+    );
+    </script>
+
+  </body>
+</html>

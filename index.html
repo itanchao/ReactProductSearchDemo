@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <script src="build/react.js"></script>
-    <script src="build/jquery.min.js"></script>
+    <script src="build/JSXTransformer.js"></script>
     <title>React学习demo，商品查询列表 </title>
   </head>
   <body>
     <div id="content"></div>
-
+    <script type="text/jsx">
+      var HellWorld = React.createClass({
+        render:function(){
+          return (
+            <p>
+            Hell,<input type ="text" placeholder = "Your Name here"/>!
+            it is {this.props.data.toTimeString()}
+            </p>
+          );
+        }
+      });
+      setInterval(function(){
+        React.render(
+          <HellWorld data = {new Date()}/>,
+          document.getElementById('content')
+        );
+      },500);
+    </script>
   </body>
 </html>
